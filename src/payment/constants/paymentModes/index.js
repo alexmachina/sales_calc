@@ -1,5 +1,5 @@
 export default {
-  debt: 'DEBT',
-  credit: 'CREDIT',
-  installments: 'INSTALLMENTS'
+  debt: 'debt',
+  credit: 'credit',
+  parcels: 'parcelS'
 }

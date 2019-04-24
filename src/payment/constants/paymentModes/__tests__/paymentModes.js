@@ -5,9 +5,9 @@ describe('Superget Calc', () => {
   describe('Business Logic', () => {
     test('Has expected payment modes', () => {
       const expected = {
-        debt: 'DEBT',
-        credit: 'CREDIT',
-        installments: 'INSTALLMENTS'
+        debt: 'debt',
+        credit: 'credit',
+        parcels: 'parcelS'
       }
 
       assert.deepEqual(paymentModes, expected)
