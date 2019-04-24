@@ -1,4 +1,3 @@
-const { defaults } = require('jest-config')
 module.exports = {
   // ...
   moduleFileExtensions: ['js', 'tsx']

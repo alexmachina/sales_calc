@@ -11,7 +11,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      Utils: path.resolve(__dirname, 'src/lib/')
+      lib: path.resolve(__dirname, './src/lib')
     }
   },
   module: {

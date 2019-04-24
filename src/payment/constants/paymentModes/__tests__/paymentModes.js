@@ -1,16 +1,16 @@
-import assert from 'lib/tests/assert'
 import paymentModes from '../'
-import { Map } from 'immutable'
+import { assert } from 'chai'
 
 describe('Superget Calc', () => {
   describe('Business Logic', () => {
     test('Has expected payment modes', () => {
-      const expected = Map({
+      const expected = {
         debt: 'DEBT',
         credit: 'CREDIT',
         installments: 'INSTALLMENTS'
-      })
-      assert.equal(paymentModes, expected)
+      }
+
+      assert.deepEqual(paymentModes, expected)
     })
   })
 })

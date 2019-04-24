@@ -1,7 +1,5 @@
-import { Map } from 'immutable'
-
-export default Map({
+export default {
   debt: 'DEBT',
   credit: 'CREDIT',
   installments: 'INSTALLMENTS'
-})
+}
