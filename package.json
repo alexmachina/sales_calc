@@ -4,7 +4,7 @@
   "description": "Superget vendor calculator",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest --watch --verbose",
+    "test": "npx jest --watchAll --verbose",
     "build": "webpack --config webpack.config.js"
   },
   "repository": {
